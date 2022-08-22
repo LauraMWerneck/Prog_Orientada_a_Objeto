@@ -1,2 +1,2 @@
-# Prog_Orientada_a_Objeto
+# Programação Orientada a Objetos
 Repositório destinado aos projetos da disciplina de Programação Orientada a Objeto.
