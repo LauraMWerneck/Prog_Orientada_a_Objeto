@@ -11,17 +11,22 @@
 
 using namespace std;
 
+/* Definição da classe
+   Nome geralmente com a primeira letra maiuscula */
 class Dice {
-private:
-	int faceValue;
 
-public:
-	Dice() {
-		srand(time(NULL));
+/* Encapsulamento: no padrao esta com metodo de acessibilidade privado */
+private:
+	int faceValue;           //Atributo da classe
+
+public:                      //É possivel mandar mensagens para os objetos pelos mtodos no modo publico
+	Dice() {                 //Construtor - Método sem valor de retorno que tem o mesmo noma da classe
+		srand(time(NULL));   //Inicializa a semente do roll/numero aleatorio
 		roll();
 	}
 
-	void roll(){
+	// Metodos da classe (roll e getFaceValue)
+	void roll(){ // Metodo da classe
 		faceValue = (rand() % 6) + 1;
 	}
 	int  getFaceValue(){
@@ -29,14 +34,25 @@ public:
 	}
 };
 
+/* Implementação da calsse de forma separada
+    Declaração como se fosse função
+    Ex: Função roll da classe Die
+
+void Die::roll{
+}
+*/
+
+/*Classe DiceGame que tem como atributos o dado 1 e o dado 2 (dice1 e dice2)
+  Os dados são objetos da classe Dice*/
 class DiceGame {
 private:
 	Dice dice1;
 	Dice dice2;
 
 public:
+    /*Método play*/
 	int play(){
-		dice1.roll();
+		dice1.roll();  //Manda uma mensagem roll para o dice1 (objeto da classe)
 		int fv1 = dice1.getFaceValue();
 		dice2.roll();
 		int fv2 = dice2.getFaceValue();
@@ -45,11 +61,10 @@ public:
 	}
 };
 
-
 int main() {
 	cout << "Dice Game" << endl; // prints Dice Game
 
-	DiceGame game;
+	DiceGame game; // Cria um objeto do tipo DiceGame
 
 	int result = game.play();
 
@@ -70,3 +85,4 @@ int main() {
 
 	return 0;
 }
+
