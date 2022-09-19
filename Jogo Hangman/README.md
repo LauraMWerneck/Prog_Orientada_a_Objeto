@@ -16,3 +16,6 @@ ser calculado em função do número de erros do jogador e o tamanho da palavra.
 
 Dado o caso de uso do jogo Hangman, realize modelagem conceitual do problema, a modelagem de
 interação do caso de uso (diagramas de sequência) e modele o diagrama de classes do mesmo.
+
+
+Para abrir os diagramas: https://app.diagrams.net/
