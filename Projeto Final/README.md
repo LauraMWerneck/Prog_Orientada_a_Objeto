@@ -2,7 +2,7 @@
 
 ## 1 - Regras do jogo
 O objetivo deste jogo é fazer a soma mais próxima ou igual a 21, sem ultrapassar este valor.
-Neste jogo, o jogador recebe duas cartas, que são chamas de "mao do jogador", as quais ficam viradas com seu valor a mostra. A mesa, o oponente do jogador, também recebe duas cartas, "maõ da mesa", mas somente uma mostra seu valor, esta carta que continua virada é comunmente chamada de “hole card”.
+Neste jogo, o jogador recebe duas cartas, que são chamas de "mao do jogador", as quais ficam viradas com seu valor a mostra. A mesa, o oponente do jogador, também recebe duas cartas, que são chamadas de "maõ da mesa", mas somente uma destas cartas tem seu valor à mostra, a carta que continua virada é comunmente chamada de “hole card”, ou então "carta fechada".
 
 Apóso jogador e a mesa receberem suas cartas é feita a soma das cartas do jogador. A partir do valor de sua soma o jogador pode escolher correr o risco e virar mais uma carta para a soma ficar mais próxima de 21, ou então ficar com as que já tem, sem correr o risco de ultrapassar 21.
 
@@ -40,16 +40,13 @@ Após a análise do resultado, ambas as mãos são limpas e há a opção para o
 
 ## 3 - Análise e Projeto Orientado a Objetos
 
-* Modelagem conceitual do problema
-* Modelagem de interação do caso de uso (diagramas de sequência)
-* Modele o diagrama de classes do mesmo
+### Diagrama de Classes
+
+![Diagrama de Classes.](./diagrama_de_classe_jogo.jpg)
+
+### Diagrama de Sequência
+
+![Diagrama de Sequência.](./diagrama_de_sequencia.jpg)
 
 
 Para abrir os diagramas: https://app.diagrams.net/
-
-
-https://github.com/ocornut/imgui
-
-
-
-
