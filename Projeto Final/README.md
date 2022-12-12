@@ -42,7 +42,7 @@ Após a análise do resultado, ambas as mãos são limpas e há a opção para o
 
 ### Diagrama de Classes
 
-![Diagrama de Classes.](./diagrama_de_classe_jogo.jpg)
+![Diagrama de Classes.](./diagrama_de_classe_jogo_c.jpg)
 
 ### Diagrama de Sequência
 
