@@ -50,3 +50,5 @@ Após a análise do resultado, ambas as mãos são limpas e há a opção para o
 
 
 Para abrir os diagramas: https://app.diagrams.net/
+
+
